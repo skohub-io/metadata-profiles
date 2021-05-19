@@ -1,5 +1,5 @@
 {
-  "$id": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/dateCreated.json",
+  "$id": "https://skohub-io.github.io/metadata-profiles/lrmi-profiledateCreated.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Creation Date",
   "description": "The creation date",

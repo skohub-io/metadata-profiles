@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/schema.json",
+  "$id": "https://skohub-io.github.io/metadata-profiles/lrmi-profileschema.json",
   "title": "OER",
   "description": "This is a generic JSON schema for describing an Open Educational Resource with schema.org",
   "type": "object",
@@ -17,64 +17,64 @@
   },
   "properties": {
     "@context": {
-      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/context-schema.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profilecontext-schema.json"
     },
     "id": {
-      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/id.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profileid.json"
     },
     "type": {
-      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/type.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profiletype.json"
     },
     "name": {
-      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/name.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profilename.json"
     },
     "creator": {
-      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/creator.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profilecreator.json"
     },
     "contributor": {
-      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/contributor.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profilecontributor.json"
     },
     "description": {
-      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/description.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profiledescription.json"
     },
     "about": {
-      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/about.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profileabout.json"
     },
     "license": {
-      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/license.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profilelicense.json"
     },
     "image": {
-      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/image.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profileimage.json"
     },
     "dateCreated": {
-      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/dateCreated.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profiledateCreated.json"
     },
     "inLanguage": {
-      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/inLanguage.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profileinLanguage.json"
     },
     "publisher": {
-      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/publisher.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profilepublisher.json"
     },
     "learningResourceType": {
-      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/learningResourceType.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profilelearningResourceType.json"
     },
     "audience": {
-      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/audience.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profileaudience.json"
     },
     "isBasedOn": {
-      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/isBasedOn.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profileisBasedOn.json"
     },
     "isPartOf": {
-      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/isPartOf.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profileisPartOf.json"
     },
     "hasPart": {
-      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/hasPart.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profilehasPart.json"
     },
     "mainEntityOfPage": {
-      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/mainEntityOfPage.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profilemainEntityOfPage.json"
     },
     "keywords": {
-      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/keywords.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profilekeywords.json"
     }
   },
   "required": [

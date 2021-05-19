@@ -1,5 +1,5 @@
 {
-  "$id": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/creator.json",
+  "$id": "https://skohub-io.github.io/metadata-profiles/lrmi-profilecreator.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Creator",
   "description": "The creator(s) of the learning resource",

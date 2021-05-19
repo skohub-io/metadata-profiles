@@ -1,5 +1,5 @@
 {
-  "$id": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/license.json",
+  "$id": "https://skohub-io.github.io/metadata-profiles/lrmi-profilelicense.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "License",
   "description": "A link to a CreativeCommons license",
