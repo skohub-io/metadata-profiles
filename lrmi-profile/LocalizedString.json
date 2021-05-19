@@ -1,5 +1,5 @@
 {
-  "$id": "https://skohub-io.github.io/metadata-profiles/lrmi-profileLocalizedString.json",
+  "$id": "https://skohub-io.github.io/metadata-profiles/lrmi-profile/LocalizedString.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Localized String",
   "description": "A language-tagged string using JSON-LD \"language maps\", see https://www.w3.org/TR/json-ld/#language-maps",

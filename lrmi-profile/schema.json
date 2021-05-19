@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://skohub-io.github.io/metadata-profiles/lrmi-profileschema.json",
+  "$id": "https://skohub-io.github.io/metadata-profiles/lrmi-profile/schema.json",
   "title": "OER",
   "description": "This is a generic JSON schema for describing an Open Educational Resource with schema.org",
   "type": "object",
@@ -17,64 +17,64 @@
   },
   "properties": {
     "@context": {
-      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profilecontext-schema.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profile/context-schema.json"
     },
     "id": {
-      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profileid.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profile/id.json"
     },
     "type": {
-      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profiletype.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profile/type.json"
     },
     "name": {
-      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profilename.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profile/name.json"
     },
     "creator": {
-      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profilecreator.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profile/creator.json"
     },
     "contributor": {
-      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profilecontributor.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profile/contributor.json"
     },
     "description": {
-      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profiledescription.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profile/description.json"
     },
     "about": {
-      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profileabout.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profile/about.json"
     },
     "license": {
-      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profilelicense.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profile/license.json"
     },
     "image": {
-      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profileimage.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profile/image.json"
     },
     "dateCreated": {
-      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profiledateCreated.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profile/dateCreated.json"
     },
     "inLanguage": {
-      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profileinLanguage.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profile/inLanguage.json"
     },
     "publisher": {
-      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profilepublisher.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profile/publisher.json"
     },
     "learningResourceType": {
-      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profilelearningResourceType.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profile/learningResourceType.json"
     },
     "audience": {
-      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profileaudience.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profile/audience.json"
     },
     "isBasedOn": {
-      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profileisBasedOn.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profile/isBasedOn.json"
     },
     "isPartOf": {
-      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profileisPartOf.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profile/isPartOf.json"
     },
     "hasPart": {
-      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profilehasPart.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profile/hasPart.json"
     },
     "mainEntityOfPage": {
-      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profilemainEntityOfPage.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profile/mainEntityOfPage.json"
     },
     "keywords": {
-      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profilekeywords.json"
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profile/keywords.json"
     }
   },
   "required": [
